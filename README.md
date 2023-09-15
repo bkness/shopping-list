@@ -1,2 +1,2 @@
 # shopping-list
-shopping list for myself
+shopping list for sam

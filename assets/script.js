@@ -31,7 +31,7 @@ function handleFormSubmit(event) {
 // TODO: Create a function to handle removing a list item when `.delete-item-btn` is clicked
 function deleteItem(event){
     var clickedButton = $(event.target);
-    clickedButton.parent().remove();
+    clickedButton.parent('li').remove();
     }
 
   shoppingListEl.on('click', '.delete-item-btn', deleteItem);
